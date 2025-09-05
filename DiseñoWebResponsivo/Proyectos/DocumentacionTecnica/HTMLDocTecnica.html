@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Documentacion Técnica</title>
+    <link rel="stylesheet" href="styles.css" href></link>
+  </head>
+  <body>
+    <div class="navegacion">
+    <header>
+      <nav id="navbar">
+        <header><h1>Documentacion de JS</h1></header>
+        <ul>
+          <li><a class="nav-link" href="#Introducción">Introducción</a></li>
+          <hr>
+          <li><a class="nav-link" href="#Conocimiento_Previo">Conocimiento Previo</a></li>
+          <hr>
+          <li><a class="nav-link" href="#Diferencias_entre_JS_y_Java">Diferencias entre JS y Java</a></li>
+          <hr>
+          <li><a class="nav-link" href="#Hola_Holita_Mundito">Hola Holita Mundito</a></li>
+          <hr>
+          <li><a class="nav-link" href="#Tipos_de_Variables">Tipos de Variables</a></li>
+        </ul>
+      </nav>
+    </header>
+    </div>
+    <main id="main-doc">
+      <section id="Introducción" class="main-section">
+        <header> <h1 id="#introduccion">Introducción</h1></header>
+       
+        <p>JavaScript es un lenguaje de scripting multiplataforma y orientado a objetos. Es un lenguaje compacto y ligero. Dentro de un entorno host (por ejemplo, un navegador web), JavaScript puede conectarse a los objetos de su entorno para proporcionar control programático sobre ellos.</p>
+        <p>JavaScript contiene una biblioteca estándar de objetos, como Array, Date y Math, y un conjunto básico de elementos del lenguaje, como operadores, estructuras de control y sentencias. El núcleo de JavaScript puede extenderse para diversos propósitos complementándolo con objetos adicionales; por ejemplo:</p>
+        <code>function greetMe(yourName) { alert("Hello " + yourName); }
+greetMe("World");</code>
+        <ul><li>JavaScript del lado del servidor extiende el lenguaje principal al proporcionar objetos relevantes para la ejecución de JavaScript en un servidor. Por ejemplo, las extensiones del lado del servidor permiten que una aplicación se comunique con una base de datos, proporcione continuidad de información entre invocaciones de la aplicación o realice manipulaciones de archivos en un servidor.</li></ul>
+      </section>
+      <section id="Conocimiento_Previo" class="main-section">
+        <header><h1 id="#bases">Conocimiento Previo</h1></header>
+        
+        <p>Las variables se utilizan como nombres simbólicos para los valores de la aplicación. Los nombres de las variables, llamados identificadores, cumplen ciertas reglas.</p>
+        <p>Un identificador de JavaScript debe comenzar con una letra, un guion bajo (_) o un signo de dólar ($); los caracteres posteriores también pueden ser dígitos (0-9). Dado que JavaScript distingue entre mayúsculas y minúsculas, las letras incluyen los caracteres de la "A" a la "Z" (mayúsculas) y de la "a" a la "z" (minúsculas).</p>
+        <code>var x = 42.</code>
+        <li>Tipos de datos que son primitivos</li>
+      </section>
+      <section id="Diferencias_entre_JS_y_Java" class="main-section">
+        <header><h1 id="#JS_J">Diferencias entre JS y Java</h1></header>
+        
+        <p>JavaScript y Java son similares en algunos aspectos, pero fundamentalmente diferentes en otros. El lenguaje JavaScript se asemeja a Java, pero carece de su tipado estático y su robusta comprobación de tipos. JavaScript sigue la mayor parte de la sintaxis de expresiones, convenciones de nomenclatura y construcciones básicas de flujo de control de Java, razón por la cual se cambió su nombre de LiveScript a JavaScript.</p>
+        <p>A diferencia del sistema de clases en tiempo de compilación de Java, construido mediante declaraciones, JavaScript admite un sistema de ejecución basado en un número reducido de tipos de datos que representan valores numéricos, booleanos y de cadena. JavaScript utiliza un modelo de objetos basado en prototipos, en lugar del modelo de objetos basado en clases, más común. El modelo basado en prototipos proporciona herencia dinámica; es decir, lo que se hereda puede variar para cada objeto. JavaScript también admite funciones sin requisitos declarativos especiales. Las funciones pueden ser propiedades de objetos y ejecutarse como métodos de tipado flexible.</p>
+        <code>function greetMe(yourName) { alert("Hello " + yourName); }
+greetMe("World");</code>
+        <ul><li>Prueba</li></ul>
+      </section>
+      <section id="Hola_Holita_Mundito" class="main-section">
+        <header><h1 id="#holaMundo">Hola Holita Mundito</h1></header>
+        
+        <p>Para comenzar a escribir JavaScript, abra el Bloc de notas y escriba su primer código JavaScript "Hola mundo":</p>
+        <p>seleccione el código en el bloc de notas y presione Ctrl+R para ver cómo se desarrolla en su navegador.</p>
+        <code>function greetMe(yourName) { alert("Hello " + yourName); }
+greetMe("World");</code>
+<ul><li>Prueba</li></ul>
+        
+      </section>
+      <section id="Tipos_de_Variables" class="main-section">
+        <header><h1 id="#variables">Tipos de Variables</h1></header>
+        
+        <p>Puedes declarar una variable de tres maneras:</p>
+        <p>Con la palabra clave var. Por ejemplo,</p>
+        <code>var x = 42.</code>
+        <ul><li>"Esto" siempre declara una variable global. Genera una advertencia estricta de JavaScript. No debería usar esta variante.</li></ul>
+      </section>
+    </main>
+  </body>
+</html>

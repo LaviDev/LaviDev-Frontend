@@ -1,0 +1,34 @@
+Puedes ver un elemento <main> con un atributo id="main-doc", el cual contiene el contenido principal de la página (documentación técnica).
+
+Dentro del elemento #main-doc, puedes ver varios elementos <section>, cada uno con una clase main-section. Debe haber un mínimo de cinco.
+
+El primer elemento dentro de cada .main-section debe ser un elemento de encabezado (como <h1>, <h2>, etc.) que contenga texto que describa el tema de esa sección.
+
+Cada elemento <section> con la clase main-section también debe tener un id que coincida con el texto del encabezado que contiene. Cualquier espacio debe reemplazarse por guiones bajos.
+(Por ejemplo: la sección que contiene el encabezado “JavaScript and Java” debería tener el atributo id="JavaScript_and_Java").
+
+Los elementos .main-section deben contener al menos diez elementos <p> en total (no diez por cada sección).
+
+Los elementos .main-section deben contener al menos cinco elementos <code> en total (no cinco por cada sección).
+
+Los elementos .main-section deben contener al menos cinco elementos <li> en total (no cinco por cada sección).
+
+Puedes ver un elemento <nav> con id="navbar".
+
+El elemento navbar debe contener un encabezado que tenga texto que describa el tema de la documentación técnica.
+
+Además, el navbar debe contener elementos de enlace (<a>) con la clase nav-link. Debe haber uno por cada elemento con la clase main-section.
+
+El encabezado dentro del #navbar debe ir antes de cualquier enlace <a> dentro de la barra de navegación.
+
+Cada elemento con la clase nav-link debe contener texto que coincida con el encabezado de su sección correspondiente.
+(Por ejemplo: si tienes una sección con encabezado “Hello world”, tu navbar debe tener un enlace con el texto “Hello world”).
+
+Al hacer clic en un elemento del navbar, la página debe navegar a la sección correspondiente dentro del elemento #main-doc.
+(Ejemplo: si haces clic en un enlace .nav-link con el texto “Hello world”, la página debe desplazarse hasta la sección que tenga ese id y contenga ese encabezado).
+
+En dispositivos de tamaño regular (laptops, escritorios), el elemento con id="navbar" debe mostrarse en el lado izquierdo de la pantalla y debe estar siempre visible para el usuario.
+
+Tu documentación técnica debe usar al menos una media query.
+
+Cumple con todas las historias de usuario y pasa todos los tests para completar este proyecto. Dale tu propio estilo personal. ¡Feliz codificación!

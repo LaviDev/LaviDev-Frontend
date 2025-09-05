@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description"> Proyecto de Certificacion</p>
+  <form id="survey-form">
+    <fieldset>
+      <label id="name-label">Nombre:
+        <input id="name" type="texte" placeholder="Ingresa tu nombre" required/>
+      </label>
+      <label id="email-label">Email: 
+        <input id="email" type="email" placeholder="Ingresa tu emali" required/>
+      </label>
+      <label id="number-label">Numero:
+        <input id="number" type="number" pattern="[0-9]+"  min="1" max="8" placeholder="Ingresa un numero:"/>
+      </label>
+    </fieldset>
+    <fieldset>
+      <label for="dropdown">Elige una opcion
+        <select id="dropdown">gfzh
+          <option>Opcion 1</option>
+          <option>Opcion 2</option>
+          <option>Opcion 3</option>
+        </select>
+      </label>
+      </fieldset>
+    <fieldset>
+      <label>
+        <input  class="inline" id="sel1"type="radio" name="selecciona" value="sel1" checked/>Sel 1
+      </label>
+      <label>
+        <input  class="inline" id="sel2"type="radio" name="selecciona" value="sel2"/>Sel 2
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>¿Qué personalidad prefieres?</legend>
+      <label>Loving
+        <input id="loving" type="checkbox" value="loving" name="personality" checked/>
+      </label>
+      <label>Lazy
+        <input id="lazy" type="checkbox" value="lazy" name="personality"/>
+      </label>
+      <label>Energetic
+        <input id="energetic" type="checkbox" value="energetic" name="personality"/>
+      </label>
+    </fieldset>
+    <fieldset>
+      <label>Comentarios adicionales:
+        <textarea id="comenta" name="comentas" rows="3" cols="30"></textarea>
+      </label>
+    </fieldset>
+    <input  id="submit" type="submit" value="Submit"/>
+  </form>
+</body>
+</html>

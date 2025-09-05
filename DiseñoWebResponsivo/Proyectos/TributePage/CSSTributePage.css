@@ -1,0 +1,22 @@
+html{
+  background-color: #f5f6f7;
+}
+body{
+  text-align: center;
+}
+#desc-ini{
+  color: #b2710b;
+  font-family:  Monserrat, sans-serial;
+  display: block;
+  font-size: 14px;
+}
+#image{
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+  display: block;
+}
+
+li>p{
+  text-align: left;
+}
